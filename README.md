@@ -33,3 +33,32 @@ A sleek, educational desktop app to **train your own Linear Regression model fro
 
 ## 🗂️ File Structure
 
+📦 root/ ├── app.py # GUI logic ├── main.py # Entry point ├── model.py # Linear Regression from scratch ├── util_func.py # Utility functions (timing, saving) ├── Data/ │ └── data.py # (You need to create this) ├── weights/ │ └── weights.txt # Saved weights and bias
+
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone this repo**  
+   ```bash
+   git clone https://github.com/your-username/linear-regression-gui.git
+   cd linear-regression-gui
+
+
+
+## 🧪 How It Works
+**Enter the path to your CSV file (e.g., data.csv)**
+
+**Input the name of the target column (e.g., Revenue)**
+
+**Set the number of training epochs**
+
+**Hit “Start Training” and watch the magic happen in the console**
+
+**Model weights will be saved in /weights/weights.txt**
+
+## Example
+**Dataset path**: coffee_shop.csv
+**Target column**: Daily_Revenue
+**Epochs**: 100
