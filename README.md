@@ -48,17 +48,21 @@ A sleek, educational desktop app to **train your own Linear Regression model fro
 
 
 ## 🧪 How It Works
-**Enter the path to your CSV file (e.g., data.csv)**
+- **Enter the path to your CSV file (e.g., data.csv)**
 
-**Input the name of the target column (e.g., Revenue)**
+- **Input the name of the target column (e.g., Revenue)**
 
-**Set the number of training epochs**
+- **Set the number of training epochs**
 
-**Hit “Start Training” and watch the magic happen in the console**
+- **Hit “Start Training” and watch the magic happen in the console**
 
-**Model weights will be saved in /weights/weights.txt**
+- **Model weights will be saved in /weights/weights.txt**
 
 ## Example
-**Dataset path**: coffee_shop.csv
-**Target column**: Daily_Revenue
-**Epochs**: 100
+- **Dataset path**: coffee_shop.csv
+- **Target column**: Daily_Revenue
+- **Epochs**: 100
+
+## 🧃 Credits
+- **Open-sourced under the MIT License.**
+- **Feel free to fork, star ⭐, or contribute!**
