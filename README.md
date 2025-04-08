@@ -4,13 +4,6 @@ A sleek, educational desktop app to **train your own Linear Regression model fro
 
 ---
 
-## 📸 Preview
-
-> *(Insert screenshots here if you’ve got them!)*  
-> GUI input fields, terminal-style training log, and a preview of your dataset.
-
----
-
 ## ✨ Features
 
 ✅ Load CSV datasets with ease  
