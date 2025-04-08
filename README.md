@@ -31,10 +31,18 @@ A sleek, educational desktop app to **train your own Linear Regression model fro
 
 ---
 
-## 🗂️ File Structure
+## Models 
 
-📦 root/ ├── app.py # GUI logic ├── main.py # Entry point ├── model.py # Linear Regression from scratch ├── util_func.py # Utility functions (timing, saving) ├── Data/ │ └── data.py # (You need to create this) ├── weights/ │ └── weights.txt # Saved weights and bias
+- **The library model is of the scikit-learn library**
+- **The Self_model is made from scratch**
+- **For accuracy use Library_model**
 
+---
+
+## Uses 
+
+- **This project can be used by statistics students to perform Linear Regression on data**
+- **This project can be used as a learning resource of whats under the hood in ML models**
 
 ---
 

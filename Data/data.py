@@ -5,7 +5,10 @@ from sklearn.model_selection import train_test_split
 class Data():
 
     def __init__(self,path):
-        self.dataset = pd.read_csv(path)
+        try :
+            self.dataset = pd.read_csv(path)
+        except FileNotFoundError:
+            print('No such file found!')
         self.columns = self.dataset.columns
 
     def set_data(self,ycolumn):

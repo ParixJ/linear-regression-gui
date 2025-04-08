@@ -12,6 +12,7 @@ class LinearRegression():
         self.weights = np.random.uniform(-1,1,size=[1,len(self.x[0])])
         self.bias = 0
         self.m = len(self.x)
+        self.id = 'selfmodel1'
 
     def fit(self,lr):
         self.yh = np.dot(self.x, self.weights.T)
@@ -25,8 +26,8 @@ class LinearRegression():
         return np.mean(loss)
     
     def train(self,x,y,yh):
-        dif = np.subtract(self.y,self.yh.flatten())
-        self.dw = -(2) * np.dot(self.x.T,dif)
+        dif = np.subtract(y,yh.flatten())
+        self.dw = -(2) * np.dot(x.T,dif)
         self.db = np.mean(2*(dif))
         return self.dw,self.db
     
@@ -42,11 +43,3 @@ class LinearRegression():
                 print(f'Epoch : {i+1} Loss : {loss}')
             print(f'\n\nFinal loss : {loss}')
         train()
-    
-# data = Data('coffee_shop_revenue.csv')
-# data.set_data('Daily_Revenue')
-# model = LinearRegression(data.x,data.y)
-
-# model.run_train(100)
-
-# util_func.store_weights(model.weights,model.bias)
