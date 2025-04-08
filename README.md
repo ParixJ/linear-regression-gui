@@ -1,6 +1,7 @@
 # 🧮 Linear Regression GUI App
 
 A sleek, educational desktop app to **train your own Linear Regression model from scratch** — using nothing but Python, Tkinter, and NumPy. Perfect for learning how gradient descent actually works under the hood 🚀
+Currently this program only supports csv files so load files accordingly.
 
 ---
 
@@ -26,7 +27,7 @@ A sleek, educational desktop app to **train your own Linear Regression model fro
 
 ## Models 
 
-- **The library model is of the scikit-learn library**
+- **The Library_model is of the scikit-learn library**
 - **The Self_model is made from scratch**
 - **For accuracy use Library_model**
 
@@ -36,7 +37,7 @@ A sleek, educational desktop app to **train your own Linear Regression model fro
 
 - **This project can be used by statistics students to perform Linear Regression on data**
 - **This project can be used as a learning resource of whats under the hood in ML models**
-
+- **The weights or the coefficient and intercept will be stored in weights/weights.txt**
 ---
 
 ## 🚀 Getting Started
